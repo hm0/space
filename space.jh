@@ -1,0 +1,26 @@
+entity SpaceEvent {
+  name String required
+  date LocalDate required
+  description TextBlob required
+  photo ImageBlob required
+  type SpaceEventType required
+}
+
+entity Mission {
+  name String required
+  description String
+}
+
+enum SpaceEventType {
+  LAUNCH,
+  LANDING
+}
+
+
+relationship OneToOne {
+  SpaceEvent{mission(name)} to Mission
+}
+
+
+paginate SpaceEvent with infinite-scroll
+paginate Mission with pagination
