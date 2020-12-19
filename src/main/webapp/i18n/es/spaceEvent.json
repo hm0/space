@@ -1,0 +1,27 @@
+{
+  "spaceApp": {
+    "spaceEvent": {
+      "home": {
+        "title": "Space Events",
+        "createLabel": "Crear nuevo Space Event",
+        "createOrEditLabel": "Crear o editar Space Event",
+        "notFound": "Ningún Space Events encontrado"
+      },
+      "created": "Un nuevo Space Event ha sido creado con el identificador {{ param }}",
+      "updated": "Un Space Event ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Space Event ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Space Event {{ id }}?"
+      },
+      "detail": {
+        "title": "Space Event"
+      },
+      "name": "Name",
+      "date": "Date",
+      "description": "Description",
+      "photo": "Photo",
+      "type": "Type",
+      "mission": "Mission"
+    }
+  }
+}

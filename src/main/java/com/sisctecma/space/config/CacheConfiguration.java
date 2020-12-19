@@ -50,6 +50,8 @@ public class CacheConfiguration {
             createCache(cm, com.sisctecma.space.domain.User.class.getName());
             createCache(cm, com.sisctecma.space.domain.Authority.class.getName());
             createCache(cm, com.sisctecma.space.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.sisctecma.space.domain.SpaceEvent.class.getName());
+            createCache(cm, com.sisctecma.space.domain.Mission.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
